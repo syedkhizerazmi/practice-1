@@ -1,0 +1,153 @@
+header nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    
+
+}
+.logo{
+    background-color: #ffc107;
+    color: whitesmoke;
+    
+}
+.book{
+    font-size: 17px;
+    float: right;
+    width: 60%;
+    padding: 12.5px;
+    border: none;
+    background-color: #ffc107;
+    color: whitesmoke;
+}
+li{
+    padding:10px 15px;
+    font-size:20px;
+    transition: .5s;
+    
+}
+header{
+    background-color: #343a40;
+    color:white;
+
+}
+.li:hover{
+    background-color: #aaa;
+}
+.book:hover{
+    background: #0376f3;
+}
+.head-work{
+    background:url(hotel.jpeg)no-repeat ;
+    width: 100%;
+    height: 90vh;
+    background-size: 100% 100%; 
+    padding: 80px 0;
+}
+header .row{
+    margin: 0;
+}
+header .col-md-10, header .col-md-2{
+    padding: 0;
+}
+#btn{
+    margin-top: 15px;
+}
+.head-work h4{
+    background-color: #343a40;
+    color: whitesmoke;
+    padding: 15px;
+    border-radius: 8px 8px 0 0;
+    margin: 0;
+}
+.sub{
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 0 0 8px 8px;
+}
+.sear{
+    display: block;
+
+}
+.button{
+    background:black;
+    color: #fff;
+}
+.booking{
+    padding: 80px 0 40px 0;
+
+}
+.room{
+    width: 100%;
+    border-radius: 0;
+}
+.icon i{
+    padding: 0 5px;
+
+}
+.contact-us{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.contact-us li{
+    font-size: 13px;
+}
+.second-section p{
+    font-size: 14px;
+    line-height: 20px;
+}
+.second-section{
+    padding: 40px 0;
+}
+.alert{
+    background-color: red;
+    padding: 40px 0 ;
+}
+.alert p{
+    margin: 0;
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+}
+.third-section .pad{
+    padding: 0px 0 30px;
+
+}
+.third-section img{
+    transition: .8s;
+    filter: blur(2px);
+}
+.third-section img:hover{
+
+    transform: scale(1.1);
+    filter: blur(0px);
+    
+}
+footer{
+    text-align: center;
+    color: white;
+    background: black;
+    padding: 100px 0;
+}
+footer i{
+    transition: .9s;
+    font-size: 20px;
+    padding: 0 3px;
+}
+footer i:hover{
+    transform: rotateY(360deg) scale(1.4) ;
+}
+@media screen and (max-width: 700px){
+
+    .book{
+        display: none;
+    }
+    li {
+        padding: 10px 15px;
+        font-size: 16px;
+        transition: .5s;
+    }
+}
